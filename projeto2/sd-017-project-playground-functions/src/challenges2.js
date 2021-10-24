@@ -22,12 +22,15 @@ function generatePhoneNumber(numeros) {
  }
     phoneNumber = '(' + numeros[0] + numeros[1] + ')' + ' ' + numeros[2] + numeros[3] + numeros[4] + numeros[5] + numeros[6] + '-' + numeros[7] + numeros[8] + numeros[9] + numeros[10]
   return phoneNumber;  } 
- let numeros2 = [0,2,1,3,4,1,4,2,7,8,1]
-console.log(generatePhoneNumber(numeros2))
+ 
+
 
 // Desafio 12
-function triangleCheck() {
-  // seu código aqui
+function triangleCheck(lineA, lineB, lineC) {
+  for (i = 1; i <= 3; i += 1) {
+    if ((lineA + lineB) > lineC && (lineB + lineC) > lineA && (lineC + lineA) > lineB && Math.abs(lineA - lineB) < lineC && Math.abs(lineA - lineC) < lineB && Math.abs(lineB - lineC) < lineA) {return true}
+    else {return false}
+  }
 }
 
 // Desafio 13
