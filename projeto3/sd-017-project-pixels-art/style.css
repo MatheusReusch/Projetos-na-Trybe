@@ -1,0 +1,35 @@
+.color {
+    padding: 60px;   
+    width: 20px;
+    display: inline-block;
+    border-style: solid;
+    border-color: black;
+    margin-left: 10px;
+    border-width: 1px;
+}
+
+.pixel {
+    padding: 60px;   
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    background-color: white;
+ }
+
+ #pixel-board {
+     width: 850px;
+     margin-top: 30px;
+ }
+
+ #botao {
+     margin-top: 10px;
+ }
+
+ #clear-board {
+     padding: 10px;
+     font-size: 15px;
+    margin-top: 5px;
+ }
